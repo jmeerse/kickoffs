@@ -15,8 +15,6 @@ library(gt)
 
 all_inj <- data.frame() #only run this one time, to create an empty dataframe
 
-yr <- 2000 #change this for each year (data goes from 1999 through 2022)
-
 years = c(1999:2010)
 
 for (i in years) {
